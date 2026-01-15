@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f172a',
+                        secondary: '#38b2ac',
+                        accent: '#f59e0b'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-primary text-white font-sans">
+    <header class="bg-primary text-white py-12 px-4 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-2">Alfred Mwai Banda (Sovereign Hugo 303)</h1>
+    </header>
+    <main class="py-8">
+        <section id="about" class="py-16 px-4 bg-gray-800">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-secondary mb-12">About Me</h2>
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <img src="image/20250622_092731.jpg" alt="Profile Picture" class="w-48 h-48 rounded-full object-contain border-4 border-secondary shadow-lg bg-primary">
+                    <div class="flex-1 text-center md:text-left">
+                        <p class="text-lg leading-relaxed">Hello! My name is Alfred Mwai Banda, also known as Sovereign Hugo 303. I am a first year student at DMI St. John the Baptist University, pursuing a Bachelor of Science in Computer Science. My academic interests focus on programming fundamentals, problem solving, and software development concepts. I am committed to building a strong foundation in computer science through coursework and practical projects. I have experience with HTML, CSS, JavaScript, C, and C++ programming. My goal is to develop technical competence and analytical skills required for a successful career in software development and related fields.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="py-16 px-4 bg-gray-800">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-secondary mb-12">Skills</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-700 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-2xl font-semibold text-secondary mb-6">Technical Skills</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-center"><span class="w-2 h-2 bg-accent rounded-full mr-3"></span>HTML & CSS</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-accent rounded-full mr-3"></span>JavaScript</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-accent rounded-full mr-3"></span>C/C++</li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-700 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-2xl font-semibold text-secondary mb-6">Soft Skills</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-center"><span class="w-2 h-2 bg-accent rounded-full mr-3"></span>Problem Solving</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-accent rounded-full mr-3"></span>Team Collaboration</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-accent rounded-full mr-3"></span>Communication</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-accent rounded-full mr-3"></span>Adaptability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="py-16 px-4 bg-gray-800">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-secondary mb-12">Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold text-secondary mb-4">Alfred Mwai Banda Portfolio</h3>
+                        <p class="text-gray-300">This portfolio presents my academic and technical journey as a first year Computer Science student at DMI St. John the Baptist University. It highlights projects, skills, and growth in programming, problem solving, and software development using HTML, CSS, JavaScript, C, and C++.
+</p>
+                    </div>
+                    <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold text-secondary mb-4">Sovereign Hugo Delicious Bites</h3>
+                        <p class="text-gray-300">Sovereign Hugo Delicious Bites is a food website showing a restaurant menu and meals you can order online. It highlights popular dishes like pizza, burgers, pasta, fresh salad, dessert, and drinks with prices. The site shares the restaurant’s story, fresh ingredients, chef experience, and commitment to quality. It also shows a gallery of food photos and gives contact details, location, hours, and ordering information.</p>
+                        <a href="https://sovereignhugo303.github.io/web/" class="bg-accent text-primary px-4 py-2 rounded-lg hover:bg-secondary transition-colors duration-300 font-semibold">View Project</a>
+                    </div>
+                    <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold text-secondary mb-4">Presidential Election Voting System</h3>
+                        <p class="text-gray-300">DMI St John the Baptst University, Malawi. A web based voting system developed by the DMI Science and Engineering Club for student union elections. The system supports voter registration, secure login, vote casting, and result tallying. It improves transparency, accuracy, and efficiency while reducing manual work. The project highlights practical software development and teamwork skills. </p>
+                        <a href="https://dmiv.netlify.app/" class="bg-accent text-primary px-4 py-2 rounded-lg hover:bg-secondary transition-colors duration-300 font-semibold">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="py-16 px-4 bg-gray-800">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-secondary mb-12">Contact</h2>
+                <div class="text-center">
+                    <div class="mb-8">
+                        <p class="text-lg mb-4"><strong>Email:</strong> <a href="mailto:bandaalfred303@gmail.com" class="text-accent hover:text-secondary transition-colors duration-300">bandaalfred303@gmail.com</a></p>
+                        <p class="text-lg mb-4"><strong>Phone:</strong> <a href="tel:+265889929152" class="text-accent hover:text-secondary transition-colors duration-300">+265 889 92 91 52</a></p>
+                    </div>
+                    <div class="flex justify-center gap-6">
+                        <a href="https://www.linkedin.com/in/alfred-mwai-banda" class="bg-accent text-primary px-6 py-3 rounded-lg hover:bg-secondary transition-colors duration-300 font-semibold">LinkedIn</a>
+                        <a href="https://github.com/sovereignhugo303" class="bg-accent text-primary px-6 py-3 rounded-lg hover:bg-secondary transition-colors duration-300 font-semibold">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-primary text-white py-6 px-4 text-center">
+        <p class="text-lg">&copy; 2025 Alfred Mwai Banda(Sovereign Hugo 303). All rights reserved.</p>
+    </footer>
+</body>
+</html>
